@@ -114,7 +114,7 @@ def draw():
     clear_canvas()
 
     background.draw()
-    for yy in range(0,280):
+    for yy in range(0,1):
         if ground[yy].destroy == False:
             ground[yy].draw()
     for i in range(len(monster)):
